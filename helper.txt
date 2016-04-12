@@ -1,0 +1,25 @@
+<div([\s\S]*?)<\/div>
+
+
+
+<\/div>[\s]*</div>[\s]*</div>[\s]*</div>
+
+
+
+Grabs the contents for a whole post (more or less)
+<div class="custom_tread_content">[A-z\s\S]*<div class="custom_tread_bottom">
+
+Above this is probably useless
+
+
+
+https://www.epicgames.com/paragon/forums/member.php?21-EPIC-arCtiC&tab=activitystream&type=user
+
+
+<li class="activitybit forum_post">
+
+
+
+
+
+$myDataObjects = $simplexml->xpath('//*[@id="activitylist"]/li[@class="activitybit forum_post"]');
