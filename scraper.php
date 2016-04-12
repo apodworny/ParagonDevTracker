@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Scrape me some data</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/css/main.css">
   </head>
   <body>
     <?php
