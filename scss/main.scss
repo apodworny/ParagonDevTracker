@@ -1,5 +1,61 @@
+$base-colour: #14171A;
+$primary-colour: #181D20;
+$secondary-colour: #D0D0D0;
 
+* {
+  box-sizing: border-box;
+}
 
 body {
-  
+  background-color: $base-colour;
+  color: $secondary-colour;
+  margin: 0;
+}
+
+p {
+  color: $secondary-colour;
+  text-align: center;
+  display: block;
+}
+
+a {
+  color: $secondary-colour;
+}
+
+.post {
+  background: $primary-colour;
+  padding: 10px;
+  border-top: 2px solid $base-colour;
+  border-bottom: 2px solid $base-colour;
+  position: relative;
+
+  .date-time {
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+  }
+}
+
+header {
+  width: 100%;
+  border-bottom: 2px solid $base-colour;
+  nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      li {
+        list-style-type: none;
+        width: 49%;
+        text-align: center;
+        padding: 10px;
+        background-color: $primary-colour;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
